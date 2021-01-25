@@ -1,4 +1,3 @@
-const fs = require("fs");
 const path = require("path");
 
 /**
@@ -9,18 +8,9 @@ const path = require("path");
 import { readFileVerbose } from "my-node-package";
 
 /**
- * 2) Doesn't break in dev, but also doesn't get bundled - will not run in built electron app
+ * 2) Doesn't break in dev, but no typings in TypeScript
  */
 // const { readFileVerbose } = require("my-node-package");
-
-/**
- * 3) Works just fine but the source copy pasted here
- */
-// const readFileVerbose = (file) => {
-//   const content = fs.readFileSync(file, "utf-8");
-//   console.log(content);
-//   return content;
-// };
 
 const el = document.getElementById("root");
 
