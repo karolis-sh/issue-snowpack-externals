@@ -1,0 +1,19 @@
+{
+  "name": "snowpack-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently 'yarn:dev:*'",
+    "dev:electron": "electron .",
+    "dev:snowpack": "snowpack dev"
+  },
+  "dependencies": {
+    "my-node-package": "*"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "electron": "^11.2.1",
+    "snowpack": "^3.0.11"
+  }
+}

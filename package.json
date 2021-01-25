@@ -1,0 +1,11 @@
+{
+  "name": "issue-snowpack-externals",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@github.com:karolis-sh/issue-snowpack-externals.git",
+  "author": "Karolis Šarapnickis <pastas.k@gmail.com>",
+  "workspaces": [
+    "packages/*"
+  ],
+  "license": "MIT"
+}
