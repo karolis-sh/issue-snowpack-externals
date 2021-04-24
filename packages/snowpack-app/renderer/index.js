@@ -1,9 +1,7 @@
 const path = require("path");
 
 /**
- * 1) Breaks with:
- *
- * Uncaught TypeError: Failed to resolve module specifier "fs". Relative references must start with either "/", "./", or "../".
+ * 1) Breaks
  */
 import { readFileVerbose } from "my-node-package";
 
