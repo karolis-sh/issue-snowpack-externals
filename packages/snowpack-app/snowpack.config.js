@@ -11,4 +11,6 @@ module.exports = {
   packageOptions: {
     external: ["fs"],
   },
+  workspaceRoot: "../..",
+  exclude: ["**/node_modules/**/*", "**/my-node-package/**/*"],
 };
